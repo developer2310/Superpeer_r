@@ -1,0 +1,421 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    height: 96px;
+}
+
+.navbar ul li a {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.navbar span,
+button {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.navbar button {
+    background: #FFD338;
+    border-radius: 8px;
+    width: 205px;
+    height: 45px;
+}
+
+/* Navbar End */
+
+
+/* Host */
+.host {
+    position: relative;
+    top: -800px;
+    height: 995px;
+}
+
+.host h1 {
+    position: relative;
+    top: -135px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+.host p {
+    position: relative;
+    top: -130px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #555;
+}
+
+.host button {
+    position: relative;
+    top: -385px;
+    left: 530px;
+    background: #FFD338;
+    border-radius: 8px;
+    width: 205px;
+    height: 45px;
+}
+
+/* Host End */
+
+
+/* See */
+.see {
+    position: relative;
+    top: -1050px;
+    height: 2650px;
+    background: linear-gradient(180deg, #FFF7E0 0%, #FFFFFF 100%);
+}
+
+.see .container {
+    width: 70%;
+}
+
+.see h1 {
+    position: relative;
+    top: 150px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+.see p {
+    position: relative;
+    top: 160px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222;
+}
+
+.circle_box {
+    position: relative;
+    top: -35px;
+    left: 140px;
+    background: #fff;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.circle_box img {
+    margin: 5px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.text__box {
+    position: relative;
+    top: -150px;
+    width: 400px;
+    height: 240px;
+}
+
+.text__box h1 {
+    font-weight: 700;
+    width: 420px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #222;
+}
+
+.text__box h3 {
+    position: relative;
+    top: 150px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #555;
+}
+
+.text__box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #555;
+}
+
+.text__box span {
+    position: relative;
+    top: 160px;
+}
+
+.text__box tt {
+    color: #7a7979;
+}
+
+.text__box button {
+    background: #FFEDC2;
+    border-radius: 8px;
+}
+
+/* See End */
+
+
+/* Featured */
+.featured {
+    position: relative;
+    height: 1100px;
+}
+
+.featured img {
+    position: relative;
+    left: 200px;
+}
+
+.box_info {
+    margin-left: 350px;
+    width: 580px;
+    height: 455px;
+}
+
+.circle_box {
+    position: relative;
+    top: -38px;
+    left: 263px;
+    /* background: #FFD338; */
+    border: 3px solid #FFD338;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.circle_box img {
+    position: relative;
+    left: 0px;
+    margin: 2px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.box_info h1 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #222;
+}
+
+.box_info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #555;
+}
+
+.box_info span {
+    position: relative;
+    left: 150px;
+    color: #98A3B6;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.box_info .bold {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+}
+
+.box_info button {
+    background: #FFF2CD;
+    border-radius: 8px;
+    margin: 40px 165px;
+}
+
+/* Featured End */
+
+/* What */
+.what {
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(180deg, #FDE6E6 0%, #FFFFFF 100%);
+}
+
+.what h1 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+.what_box h1 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #222;
+}
+
+.what_box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #555;
+}
+
+.what button {
+    width: 190px;
+    height: 50px;
+    background: #FFF2CD;
+    border-radius: 8px;
+    margin: 100px 530px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* What END */
+
+/* Don't */
+
+.do__not {
+    height: 800px;
+    background: linear-gradient(180deg, #FFFAEC 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.do__not h1 {
+    position: relative;
+    top: -60px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+.supertext {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #222;
+}
+
+.do__not i {
+    background: #EEE;
+    border-radius: 27px;
+    width: 54px;
+    height: 54px;
+}
+
+.circle_header {
+    margin-top: -30px;
+    margin-left: -60px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #222;
+}
+
+.circle_paragraph {
+    margin-top: -5px;
+    margin-left: -110px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #222;
+    font-weight: 400;
+}
+
+/* Don't */
+
+
+/* Introducing */
+.introducing {
+    height: 1620px;
+    background: linear-gradient(180deg, #E4DDFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.introducing p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #222;
+}
+
+.intro_info h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #222;
+}
+
+.intro_info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #555;
+}
+
+/* Introducing END */
+
+
+/* Become */
+.become {
+    position: relative;
+    top: -380px;
+    left: 360px;
+}
+
+.become .circle_box {
+    background: #FFFAE5;
+    border: 2.17px solid #FFF;
+}
+
+.become .circle_box img {
+    width: 160px;
+    height: 160px;
+}
+
+.become button {
+    background: #FFD338;
+    border-radius: 8px;
+    /* width: 210px; */
+    height: 54px;
+}
+
+/* Become END */
+
+
+/* Footer */
+
+.footer {
+    position: relative;
+    top: -60px;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #222;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* Footer END */
